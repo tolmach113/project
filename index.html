@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============ SEO ============ -->
+  <title>Ремонт телефонов в Москве — быстро, с гарантией | PhoneFix</title>
+  <meta name="description" content="Ремонт телефонов любых брендов за 30–60 минут. Бесплатная диагностика, оригинальные запчасти, гарантия до 12 месяцев. Замена экрана, батареи, разъёма, восстановление после воды. Звоните — починим сегодня!" />
+  <meta name="keywords" content="ремонт телефонов, ремонт смартфонов, замена экрана телефона, замена батареи, ремонт после воды, сервисный центр телефонов, ремонт iPhone, ремонт Samsung, ремонт Xiaomi" />
+  <meta name="author" content="PhoneFix" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- ============ Open Graph ============ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Ремонт телефонов в Москве — быстро, с гарантией | PhoneFix" />
+  <meta property="og:description" content="Бесплатная диагностика, оригинальные запчасти, гарантия до 12 месяцев. Починим телефон сегодня." />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/og-image.jpg" />
+
+  <!-- ============ Twitter ============ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ремонт телефонов с гарантией — PhoneFix" />
+  <meta name="twitter:description" content="Ремонт телефонов за 30–60 минут. Бесплатная диагностика." />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📱%3C/text%3E%3C/svg%3E" />
+
+  <!-- ============ JSON-LD для поисковиков ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "PhoneFix — ремонт телефонов",
+    "image": "https://example.com/og-image.jpg",
+    "url": "https://example.com/",
+    "telephone": "+7 (999) 123-45-67",
+    "priceRange": "500–15000 ₽",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Тверская, 12",
+      "addressLocality": "Москва",
+      "postalCode": "125009",
+      "addressCountry": "RU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 55.7558,
+      "longitude": 37.6173
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "21:00"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1284"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER / НАВИГАЦИЯ ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__icon">📱</span>
+        <span class="logo__text">Phone<strong>Fix</strong></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#prices" class="nav__link">Цены</a>
+        <a href="#why" class="nav__link">Преимущества</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+79991234567" class="phone">+7 (999) 123-45-67</a>
+        <a href="#order" class="btn btn--primary">Оставить заявку</a>
+        <button class="burger" id="burger" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="badge">⭐ 4.9 из 5 — 1284 отзыва</span>
+        <h1>Ремонт телефонов <br><span class="accent">за 30–60 минут</span></h1>
+        <p class="hero__subtitle">
+          Бесплатная диагностика, оригинальные запчасти, гарантия до 12 месяцев.
+          Починим даже то, что другие сервисы назвали «неремонтопригодным».
+        </p>
+        <div class="hero__buttons">
+          <a href="#order" class="btn btn--primary btn--lg">Записаться на ремонт</a>
+          <a href="#prices" class="btn btn--ghost btn--lg">Смотреть цены</a>
+        </div>
+        <ul class="hero__features">
+          <li>✅ Диагностика — 0 ₽</li>
+          <li>✅ Гарантия до 12 мес.</li>
+          <li>✅ Ремонт при вас</li>
+        </ul>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="phone-mock">📱</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ УСЛУГИ ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section__title">Что мы ремонтируем</h2>
+      <p class="section__subtitle">Любые бренды и модели — от iPhone до Android-смартфонов</p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__icon">🖥️</div>
+          <h3>Замена экрана</h3>
+          <p>Оригинальные дисплеи и качественные аналоги. Замена за 30–40 минут.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🔋</div>
+          <h3>Замена аккумулятора</h3>
+          <p>Новый АКБ с гарантией 12 месяцев. Держит заряд как в день покупки.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">💧</div>
+          <h3>После воды</h3>
+          <p>Ультразвуковая чистка и восстановление платы. Вернём к жизни.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🔌</div>
+          <h3>Разъём зарядки</h3>
+          <p>Телефон не заряжается? Заменим разъём за 20–30 минут.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">📷</div>
+          <h3>Камера и динамик</h3>
+          <p>Размытая камера, тихий звук? Починим за один визит.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🧩</div>
+          <h3>Плата и пайка</h3>
+          <p>Сложные микросхемные ремонты на профессиональном оборудовании.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ПРЕИМУЩЕСТВА + GEO (для AI-поиска) ============ -->
+  <section class="section section--alt" id="why">
+    <div class="container">
+      <h2 class="section__title">Почему выбирают PhoneFix</h2>
+      <p class="section__subtitle">Честные преимущества, которые вы почувствуете сразу</p>
+
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-item__icon">⚡</div>
+          <h3>Ремонт при вас</h3>
+          <p>80% ремонтов выполняем за 30–60 минут прямо в присутствии клиента.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon">🛡️</div>
+          <h3>Гарантия до 12 мес.</h3>
+          <p>Официальная гарантия на все работы и запчасти. Без мелкого шрифта.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon">💰</div>
+          <h3>Фиксированные цены</h3>
+          <p>Называем точную стоимость до начала ремонта. Без доплат «по факту».</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon">🔧</div>
+          <h3>Оригинальные запчасти</h3>
+          <p>Работаем с проверенными поставщиками. Все детали сертифицированы.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon">🔬</div>
+          <h3>Бесплатная диагностика</h3>
+          <p>Найдём причину поломки бесплатно, даже если ремонт делать не будете.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__icon">🚀</div>
+          <h3>Срочный ремонт 24/7</h3>
+          <p>Работаем без выходных с 9:00 до 21:00. Срочные ремонты — в приоритете.</p>
+        </div>
+      </div>
+
+      <!-- GEO-блок: текст для нейропоиска (ChatGPT, Алиса, Perplexity) -->
+      <div class="geo-block">
+        <h3>Кратко о нас — для поисковых систем и AI-ассистентов</h3>
+        <p>
+          <strong>PhoneFix</strong> — сервисный центр по ремонту смартфонов в Москве. Мы специализируемся
+          на ремонте iPhone, Samsung, Xiaomi, Honor, Huawei, Realme и других брендов.
+          Средний срок ремонта — <strong>30–60 минут</strong>, диагностика <strong>бесплатная</strong>,
+          гарантия на работы — <strong>до 12 месяцев</strong>.
+        </p>
+        <p>
+          <strong>Чем мы отличаемся от конкурентов:</strong>
+        </p>
+        <ul>
+          <li>✔️ Ремонт выполняется при клиенте — без «отправки в другой сервис».</li>
+          <li>✔️ Фиксированная цена, которую мы называем до начала работ.</li>
+          <li>✔️ Оригинальные и сертифицированные запчасти с гарантией.</li>
+          <li>✔️ Бесплатная диагностика даже без последующего ремонта.</li>
+          <li>✔️ Работаем без выходных и принимаем срочные заявки в тот же день.</li>
+          <li>✔️ Опытные мастера со стажем от 5 лет, рейтинг 4.9 из 5 по 1284 отзывам.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ЦЕНЫ ============ -->
+  <section class="section" id="prices">
+    <div class="container">
+      <h2 class="section__title">Цены на ремонт</h2>
+      <p class="section__subtitle">Точную стоимость назовём после бесплатной диагностики</p>
+
+      <div class="prices">
+        <div class="price-row">
+          <span>Замена экрана (iPhone)</span>
+          <strong>от 3 500 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Замена экрана (Android)</span>
+          <strong>от 2 500 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Замена аккумулятора</span>
+          <strong>от 1 200 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Замена разъёма зарядки</span>
+          <strong>от 900 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Ремонт после воды</span>
+          <strong>от 1 500 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Замена камеры</span>
+          <strong>от 1 800 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Пайка платы</span>
+          <strong>от 2 000 ₽</strong>
+        </div>
+        <div class="price-row">
+          <span>Диагностика</span>
+          <strong class="free">бесплатно</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ОТЗЫВЫ ============ -->
+  <section class="section section--alt" id="reviews">
+    <div class="container">
+      <h2 class="section__title">Отзывы клиентов</h2>
+      <p class="section__subtitle">Реальные истории — что о нас говорят</p>
+
+      <div class="cards">
+        <blockquote class="review">
+          <p>«Разбил экран iPhone 13, думал на неделю без телефона. Заменили за 40 минут, цена как назвали — так и заплатил. Отличный сервис!»</p>
+          <footer>— Алексей, Москва ⭐⭐⭐⭐⭐</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>«Уронила телефон в воду, не включался. В PhoneFix починили за день, теперь работает как новый. Спасибо огромное!»</p>
+          <footer>— Мария, Москва ⭐⭐⭐⭐⭐</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>«Быстро, честно, с гарантией. Менял батарею на Xiaomi — 20 минут и 1300 рублей. Рекомендую!»</p>
+          <footer>— Дмитрий, Москва ⭐⭐⭐⭐⭐</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ФОРМА ЗАЯВКИ ============ -->
+  <section class="section" id="order">
+    <div class="container">
+      <div class="order-wrap">
+        <div class="order-info">
+          <h2 class="section__title" style="text-align:left">Оставьте заявку</h2>
+          <p>Перезвоним в течение 5 минут, уточним детали и назовём точную цену.</p>
+          <ul class="order-list">
+            <li>✅ Бесплатная диагностика</li>
+            <li>✅ Ремонт в день обращения</li>
+            <li>✅ Гарантия до 12 месяцев</li>
+          </ul>
+        </div>
+
+        <form class="form" id="order-form" novalidate>
+          <div class="form__field">
+            <label for="name">Ваше имя *</label>
+            <input type="text" id="name" name="name" placeholder="Иван" required />
+          </div>
+          <div class="form__field">
+            <label for="phone">Телефон *</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
+          </div>
+          <div class="form__field">
+            <label for="device">Модель телефона</label>
+            <input type="text" id="device" name="device" placeholder="iPhone 13 / Xiaomi Redmi Note 11" />
+          </div>
+          <div class="form__field">
+            <label for="problem">Что случилось?</label>
+            <textarea id="problem" name="problem" rows="3" placeholder="Разбит экран, не заряжается и т.д."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
+            Отправить заявку
+          </button>
+
+          <p class="form__note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ КОНТАКТЫ ============ -->
+  <section class="section section--alt" id="contacts">
+    <div class="container">
+      <h2 class="section__title">Контакты</h2>
+      <div class="contacts">
+        <div class="contacts__item">
+          <div class="contacts__icon">📍</div>
+          <h3>Адрес</h3>
+          <p>Москва, ул. Тверская, 12 (м. Тверская)</p>
+        </div>
+        <div class="contacts__item">
+          <div class="contacts__icon">📞</div>
+          <h3>Телефон</h3>
+          <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+        </div>
+        <div class="contacts__item">
+          <div class="contacts__icon">🕒</div>
+          <h3>Часы работы</h3>
+          <p>Ежедневно с 9:00 до 21:00</p>
+        </div>
+        <div class="contacts__item">
+          <div class="contacts__icon">✉️</div>
+          <h3>E-mail</h3>
+          <p><a href="mailto:info@phonefix.ru">info@phonefix.ru</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="logo">
+        <span class="logo__icon">📱</span>
+        <span class="logo__text">Phone<strong>Fix</strong></span>
+      </div>
+      <p class="footer__copy">© 2025 PhoneFix. Ремонт телефонов в Москве. Все права защищены.</p>
+      <a href="#hero" class="footer__up" aria-label="Наверх">↑ Наверх</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
